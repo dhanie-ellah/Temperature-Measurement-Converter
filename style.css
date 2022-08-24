@@ -83,3 +83,14 @@ form .convert{
 .output{
      font-size: 12px;
 }
+
+@media (max-width: 550px){
+     main{
+          margin: 15px;
+          width: 100%;
+     }
+
+     h1{
+          font-size: 22px;
+     }
+}
