@@ -2,7 +2,7 @@
 function converttemp() {
      let from = document.getElementById("from").value;
      let to = document.getElementById("to").value;
-     let constnumber = parseInt(document.getElementById("number").value);
+     let constnumber = parseFloat(document.getElementById("number").value);
 
      if (constnumber) {
           // FROM KELVIN TO FARENHEIT
